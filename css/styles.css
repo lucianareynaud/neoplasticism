@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  margin: 0;
+
+}
+
+h1 {
+color: #716F81
+
+}
+
+/*The box model. Standard border 3px. Dimensions assigned clockwise.*/
+
+ .top-container {
+  background-color: #F2E1C1;
+  border-width: 20px;
+  border-color: #B97A95;
+  padding: 50px;
+
+}
+
+.middle-container {
+  background-color: #B97A95;
+  width: 200px;
+  height: 200px;
+
+}
+
+.bottom-container {
+  background-color: #F6AE99;
+  width: 200px;
+  height: 200px;
+  padding-left: 200px;
+
+}
