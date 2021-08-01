@@ -5,31 +5,36 @@ body {
 }
 
 h1 {
-color: #716F81
+color: black;
 
 }
 
 /*The box model. Standard border 3px. Dimensions assigned clockwise.*/
 
  .top-container {
-  background-color: #F2E1C1;
-  border-width: 20px;
-  border-color: #B97A95;
-  padding: 50px;
+  background-color: blue;
+  border: solid 10px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  padding: 20px;
 
 }
 
 .middle-container {
-  background-color: #B97A95;
+  background-color: red;
   width: 200px;
   height: 200px;
+  border: solid 20px;
+  margin-left: 260px;
 
 }
 
 .bottom-container {
-  background-color: #F6AE99;
+  background-color: gold;
+  border: solid 10px;
   width: 200px;
   height: 200px;
-  padding-left: 200px;
+  margin-left: 500px;
 
 }
